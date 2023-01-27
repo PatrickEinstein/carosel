@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./carosel.css";
-import { animetxts } from "./image.js";
+import { animetxts } from "./image";
 
 export default function ImageCarousel({ images }) {
   const settings = {
